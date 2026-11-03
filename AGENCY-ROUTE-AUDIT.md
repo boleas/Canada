@@ -15,7 +15,7 @@ Compared with the supplied combined-travel contract, eight hotel vouchers, fligh
 | 16 | Hwy 97 → Clinton → Hwy 99 → Lillooet → Duffey Lake Road → Whistler | Removed the Cache Creek town detour; added Clinton, the highway junction and Duffey Lake Road. Agency: 306 km, a little over 4h without stops. |
 | 18 | Sea to Sky → Vancouver, suggested Lions Gate / Stanley Park entrance | Added the bridge and causeway anchors. This entrance is a suggestion in the agency text. |
 
-The documents provide narrative routes, not GPS tracks or turn-by-turn instructions. Map lines and anchors remain approximate. Apple Maps and Google Maps can reroute between anchors. Open numbered stages in order, verify highway numbers, and reject shortcuts that leave the agency corridor. Contact the agency and hotel before taking an alternative to a closed agency road. Optional discovery visits may add detours and are not compulsory stages.
+The documents provide narrative routes, not GPS tracks or turn-by-turn instructions. Map lines and anchors remain approximate. Google Maps can reroute between anchors. Open numbered stages in order, verify highway numbers, and reject shortcuts that leave the agency corridor. Contact the agency and hotel before taking an alternative to a closed agency road. Optional discovery visits may add detours and are not compulsory stages.
 
 ## Hotel voucher facts
 

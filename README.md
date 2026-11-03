@@ -48,9 +48,9 @@ Vercel alternative: `vercel.json` rewrites the application and APIs to `api/inde
 
 ## CarPlay navigation
 
-Tap **CarPlay / Maps** on a driving leg. Choose Apple Maps or Google Maps (the choice is saved in this browser). Open the hotel directly, or open each highway waypoint in order to follow the planned corridor. Each link navigates from the device’s current position; it does not hard-code yesterday’s hotel as the starting point. Hotel and discovery navigation links use the same app preference.
+Tap **Google Maps** on a driving leg. All navigation uses Google Maps. Open the hotel directly, or open each highway waypoint in order to follow the planned corridor. Each link navigates from the device’s current position; it does not hard-code yesterday’s hotel as the starting point. Hotel and discovery navigation links also open Google Maps.
 
-The website does not run on CarPlay or automatically install/save routes in a maps account. Start navigation on your iPhone, connect to CarPlay, and use the chosen navigation app there. Google Maps must be installed and enabled for CarPlay. Approximate highway anchors are not guaranteed safe stopping places. Download offline maps separately.
+The website does not run on CarPlay or automatically install/save routes in a maps account. Start navigation on your iPhone, connect to CarPlay, and use Google Maps there. Google Maps must be installed and enabled for CarPlay. Approximate highway anchors are not guaranteed safe stopping places. Download offline maps separately.
 
 ## Publish on Vercel
 

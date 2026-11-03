@@ -1,8 +1,7 @@
 // Navigation apps calculate routes from the driver's current position.
-function navigationURL(provider,lat,lng){
+function navigationURL(lat,lng){
  if(!Number.isFinite(lat)||!Number.isFinite(lng)||Math.abs(lat)>90||Math.abs(lng)>180)throw new Error('Invalid destination');
- if(provider==='google')return 'https://www.google.com/maps/dir/?'+new URLSearchParams({api:'1',destination:`${lat},${lng}`,travelmode:'driving'});
- return 'https://maps.apple.com/?'+new URLSearchParams({daddr:`${lat},${lng}`,dirflg:'d'});
+ return 'https://www.google.com/maps/dir/?'+new URLSearchParams({api:'1',destination:`${lat},${lng}`,travelmode:'driving'});
 }
 const waypointNames=[[],['Hope · Hwy 1 → 3','Manning Park area · Hwy 3','Princeton · Hwy 3','Keremeos · Hwy 3 → 3A'],['Kelowna · Hwy 97','Vernon · Hwy 97','Sicamous · Hwy 1'],['Rogers Pass · Hwy 1','Golden · Hwy 1','Lake Louise area · Hwy 1'],['Lake Louise village · Hwy 1 → 93N','Bow Lake area · Hwy 93N','Columbia Icefields area · Hwy 93N','Athabasca Valley · Hwy 93N'],['Tête Jaune Cache · Hwy 16 → 5','Valemount · Hwy 5','Clearwater · Hwy 5','Little Fort · Hwy 5 → 24','Lone Butte · Hwy 24'],['Clinton · Hwy 97','Hwy 97 / 99 junction','Lillooet · Hwy 99','Duffey Lake Road · Hwy 99','Pemberton · Hwy 99'],['Squamish · Hwy 99','Sea to Sky corridor · Hwy 99','Lions Gate Bridge','Stanley Park causeway']];
 function drivingStages(stay,index){return [...stay.via.map((p,i)=>({name:waypointNames[index]?.[i]||`Waypoint ${i+1}`,lat:p[0],lng:p[1]})),{name:stay.hotel,lat:stay.lat,lng:stay.lng}];}
