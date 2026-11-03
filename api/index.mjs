@@ -1,0 +1,2 @@
+import worker from '../worker/index.js';
+export default async function handler(req,res){try{const origin='https://'+(req.headers.host||'localhost');const r=await worker.fetch(new Request(new URL(req.url,origin),{method:req.method}));res.status(r.status);for(const [k,v] of r.headers)res.setHeader(k,v);res.send(Buffer.from(await r.arrayBuffer()))}catch{res.status(502).json({error:'Source unavailable'})}}
