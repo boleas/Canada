@@ -17,7 +17,7 @@ Open http://localhost:3000. Build generates a self-contained Cloudflare Worker E
 ## Features
 
 - Eight booked stays with dates, hotel coordinates, phones, check-in times and route navigation.
-- Interactive CARTO/Leaflet map, planned driving corridors and selected-leg highlight.
+- Interactive OpenStreetMap/Leaflet map, planned driving corridors and selected-leg highlight.
 - 24 short stops, indoor alternatives and fuel/food breaks. Arrival-day forecasts rank indoor/outdoor suggestions; they do not determine safety or opening.
 - Open-Meteo current conditions and 16-day forecast. Trip forecast shown only when the exact arrival date exists. All temperatures Celsius, winds km/h. Long-range uncertainty is stated.
 - DriveBC Open511 active notices, filtered approximately to the selected corridor. Includes notices on nearby roads. Approximate geometry and feed limits are disclosed; never interprets an empty response as confirmation of safe/open roads.
@@ -30,7 +30,7 @@ Open http://localhost:3000. Build generates a self-contained Cloudflare Worker E
 
 No original PDFs, booking references, traveller birth dates, tickets, email addresses or credentials are included. Public hotel and service contact details and trip dates are transcribed from vouchers. This is a personal itinerary: deploy privately. Browser storage does not sync between devices. Export keeps a copy; offline map tiles are not cached by the app. Download offline maps in a navigation app before travelling.
 
-External resources: Leaflet (jsDelivr), CARTO/OpenStreetMap map tiles, Google Fonts, Open-Meteo, DriveBC and official park pages. They require internet and may fail independently. The frontend falls back to a usable list and external navigation links when the map library fails. Weather is fetched directly by the browser; road and park requests run through same-origin read-only endpoints. Upstream failures are never represented as all-clear.
+External resources: Leaflet (vendored, BSD-2-Clause), OpenStreetMap map tiles, Google Fonts, Open-Meteo, DriveBC and official park pages. They require internet and may fail independently. The frontend falls back to a usable list and external navigation links when the map library fails. Weather is fetched directly by the browser; road and park requests run through same-origin read-only endpoints. Upstream failures are never represented as all-clear.
 
 ## Planning limits
 
@@ -38,7 +38,7 @@ Distances and times are estimates without stops or winter delays. Dashed lines f
 
 ## Deployment
 
-Sites: deploy `dist/` as a Worker artifact, retaining `.openai/hosting.json`. The current environment lacks the Sites source helper; see the task handoff for publication status.
+Sites: deploy `dist/` as a Worker artifact, retaining `.openai/hosting.json`. The Sites source helper is unavailable in this environment; the same verified source commit is pushed to the Site repository and packaged as Worker ESM.
 
 Vercel alternative: `vercel.json` rewrites the application and APIs to `api/index.mjs`, which invokes the same Worker-compatible handler. Import this repository to Vercel, choose Other framework, run `npm run build`, use no static output directory, and enable deployment protection before using personal trip dates. The Vercel adapter has no provider secrets. Server fetches depend on provider/upstream access.
 
