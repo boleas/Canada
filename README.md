@@ -65,3 +65,7 @@ The route and hotel panels use an offline standard sunrise/sunset approximation 
 Essential breaks and one hour of contingency are reserved. Up to 20 extra minutes are offered for one scenic stop only when the suggested departure leaves enough room. The latest-departure label assumes no optional sightseeing. The app flags an infeasible day instead of recommending departure before daylight. Jasper–100 Mile House on 15 November needs agency review under the conservative budget. The initial airport transfer is necessarily after dark with the booked flight/rental times. No routes or reservations are changed automatically.
 
 “Daylight & highlights” gives one memorable option, a weather fallback and what to skip. Longer experiences use the existing non-driving days. Download offline maps separately; this app does not monitor position or provide live turn-by-turn directions/remaining-drive ETAs.
+
+## Clothing
+
+Clothing opens a per-person packing checklist with suggested quantities and a mid-trip laundry assumption. Progress is browser-local and exported with the itinerary. “What to wear” covers 6–21 November, including non-driving days and return flights. It uses the exact date’s available town forecasts (both endpoints on a transfer), with explicit seasonal fallback when forecasts are missing. Mountain-pass conditions may differ; rain, snow, freezing lows and wind add appropriate clothing notes but never imply safe trail access. Return connections on 20–21 November use flight-layer guidance rather than Vancouver weather.
