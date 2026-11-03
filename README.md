@@ -57,3 +57,11 @@ The website does not run on CarPlay or automatically install/save routes in a ma
 Import `boleas/Canada` into your Vercel account, select branch `main`, and keep the repository’s `vercel.json` settings: Other framework, `npm run build`, output `public`, Node 22 or newer. No environment variables are required for this version. The root and condition endpoints are explicitly rewritten to the serverless adapter; unrecognised paths return 404. Enable Vercel deployment protection if you want access restricted: the Sites sign-in gate does not carry over to Vercel.
 
 [Deploy this repository to Vercel](https://vercel.com/new/import?s=https%3A%2F%2Fgithub.com%2Fboleas%2FCanada)
+
+## Daylight-first experience plan
+
+The route and hotel panels use an offline standard sunrise/sunset approximation (solar altitude −0.833°) on the actual transfer date for the origin, corridor anchors and destination. The window starts at the latest sunrise plus 15 minutes and ends at the earliest sunset minus 45 minutes. Useful light can be shorter in mountain shade and poor visibility. Live weather does not override these limits or certify safe driving.
+
+Essential breaks and one hour of contingency are reserved. Up to 20 extra minutes are offered for one scenic stop only when the suggested departure leaves enough room. The latest-departure label assumes no optional sightseeing. The app flags an infeasible day instead of recommending departure before daylight. Jasper–100 Mile House on 15 November needs agency review under the conservative budget. The initial airport transfer is necessarily after dark with the booked flight/rental times. No routes or reservations are changed automatically.
+
+“Daylight & highlights” gives one memorable option, a weather fallback and what to skip. Longer experiences use the existing non-driving days. Download offline maps separately; this app does not monitor position or provide live turn-by-turn directions/remaining-drive ETAs.

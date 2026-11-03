@@ -32,21 +32,15 @@ The documents provide narrative routes, not GPS tracks or turn-by-turn instructi
 
 Check-in opening is not an arrival deadline. The documents do not prescribe daily hotel arrival times. The app previously showed Whistler checkout as 11:00; corrected to 10:00. All hotel dates and order match the vouchers.
 
-## Planning guidance, separate from agency facts
+## Daylight-first guidance (supersedes the original fixed arrival table)
 
-| Date | Destination | Suggested departure* | Planned arrival* | Included allowance |
-|---|---|---|---|---|
-| 9 Nov | Penticton | 08:15 | 16:00 | 6h driving + 45m total breaks + 60m contingency |
-| 10 Nov | Revelstoke | 09:45 | 16:00 | 4h30 driving + 45m breaks + 60m contingency |
-| 11 Nov | Banff | 09:15 | 16:00 | 5h driving + 45m breaks + 60m contingency |
-| 13 Nov | Jasper | 09:15 | 16:00 | 5h driving + 45m breaks + 60m contingency |
-| 15 Nov | 100 Mile House | 07:15 | 16:00 | 7h driving + 45m breaks + 60m contingency |
-| 16 Nov | Whistler | 08:45 | 16:00 | 5h30 driving + 45m breaks + 60m contingency |
-| 18 Nov | Vancouver | 10:00 | 14:00 | 2h30 driving + 30m breaks + 60m contingency; room opens 15:00 |
+Hotel facts and agency corridors above are unchanged. Fixed early departure suggestions have been replaced by a solar calculation for each actual transfer date and the origin, destination and corridor anchors. The preferred driving window starts 15 minutes after the latest sunrise and ends 45 minutes before the earliest sunset across those points. Times use each location’s device-reported time zone. Solar estimates do not predict mountain shade, fog, road or weather conditions.
 
-*All clock times are local to their location. Values shown are calculated by the review environment. The app calculates using the travel date and device time-zone database, without assuming a fixed provincial time difference. Confirm local hotel clocks if devices disagree. Departure is capped by the previous hotel's checkout. Early arrival does not guarantee early room access.
+Departure is never recommended before the daylight start merely to make the numbers fit. If the conservative driving allowance, essential breaks and one-hour contingency exceed the available window, the app flags a timing review and removes optional sightseeing. It does not silently change hotels, corridors or allow night driving. The 15 November Jasper–100 Mile House transfer fails this conservative daylight check: ask the agency to assess realistic winter travel times and agree a plan if avoiding darkness is essential. The shorter agency no-stop estimate may fit, but cannot be assumed in poor conditions.
 
-These are conservative app estimates, not agency requirements, live ETAs or guarantees. Sightseeing must fit within the break allowance or require earlier departure. The 15 November leg may involve driving before daylight; none of these plans guarantees daylight throughout. Winter weather and closures can exceed the buffer. Check road notices and navigation ETA before departure, skip optional visits if late, and call the hotel if arrival changes.
+On feasible legs the app adds at most one short scenic stop (up to 20 minutes) only where there is spare time, and gives a latest departure without sightseeing. These are planning budgets, not live ETAs. The 16 November transfer is tight and has no extra sightseeing allowance. The 6 November airport transfer is necessarily after dark under the booked arrival/pickup times; if tired, discuss an airport transfer and adjusted rental pickup with the providers.
+
+Longer visits belong on 7–8 November in Vancouver, 12 November in Banff, 14 November in Jasper and 17 November in Whistler. Verify opening and winter access; no ski lifts, glacier tours, high roads or boat trips are assumed to operate.
 
 The 19 November rental return is booked for 19:55, two hours before the 21:55 flight. Confirm rental return logistics and airline deadlines; an earlier return may need arranging with Thrifty.
 
