@@ -40,8 +40,20 @@ Distances and times are estimates without stops or winter delays. Dashed lines f
 
 Sites: deploy `dist/` as a Worker artifact, retaining `.openai/hosting.json`. The Sites source helper is unavailable in this environment; the same verified source commit is pushed to the Site repository and packaged as Worker ESM.
 
-Vercel alternative: `vercel.json` rewrites the application and APIs to `api/index.mjs`, which invokes the same Worker-compatible handler. Import this repository to Vercel, choose Other framework, run `npm run build`, use no static output directory, and enable deployment protection before using personal trip dates. The Vercel adapter has no provider secrets. Server fetches depend on provider/upstream access.
+Vercel alternative: `vercel.json` rewrites the application and APIs to `api/index.mjs`, which invokes the same Worker-compatible handler. Import this repository to Vercel, choose Other framework, run `npm run build`, use `public` as the output directory, and enable deployment protection before using personal trip dates. The Vercel adapter has no provider secrets. Server fetches depend on provider/upstream access.
 
 ## Verification
 
 `npm test` verifies contiguous booked nights, coordinate ranges, source-link parsing, failure states and Worker response routes. Browser QA and live provider verification depend on the execution environment and are separately reported in the task handoff.
+
+## CarPlay navigation
+
+Tap **CarPlay / Maps** on a driving leg. Choose Apple Maps or Google Maps (the choice is saved in this browser). Open the hotel directly, or open each highway waypoint in order to follow the planned corridor. Each link navigates from the device’s current position; it does not hard-code yesterday’s hotel as the starting point. Hotel and discovery navigation links use the same app preference.
+
+The website does not run on CarPlay or automatically install/save routes in a maps account. Start navigation on your iPhone, connect to CarPlay, and use the chosen navigation app there. Google Maps must be installed and enabled for CarPlay. Approximate highway anchors are not guaranteed safe stopping places. Download offline maps separately.
+
+## Publish on Vercel
+
+Import `boleas/Canada` into your Vercel account, select branch `main`, and keep the repository’s `vercel.json` settings: Other framework, `npm run build`, output `public`, Node 22 or newer. No environment variables are required for this version. The root and condition endpoints are explicitly rewritten to the serverless adapter; unrecognised paths return 404. Enable Vercel deployment protection if you want access restricted: the Sites sign-in gate does not carry over to Vercel.
+
+[Deploy this repository to Vercel](https://vercel.com/new/import?s=https%3A%2F%2Fgithub.com%2Fboleas%2FCanada)

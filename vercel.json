@@ -1,1 +1,13 @@
-{"buildCommand":"npm run build","rewrites":[{"source":"/(.*)","destination":"/api"}],"functions":{"api/index.mjs":{"maxDuration":30}}}
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
+  "rewrites": [
+    { "source": "/", "destination": "/api/index?_route=home" },
+    { "source": "/index.html", "destination": "/api/index?_route=home" },
+    { "source": "/api/roads", "destination": "/api/index?_route=roads" },
+    { "source": "/api/parks", "destination": "/api/index?_route=parks" }
+  ],
+  "functions": { "api/index.mjs": { "maxDuration": 30, "includeFiles": "worker/index.js" } }
+}
