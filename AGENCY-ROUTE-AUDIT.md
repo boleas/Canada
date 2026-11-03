@@ -2,6 +2,10 @@
 
 Compared with the supplied combined-travel contract, eight hotel vouchers, flight voucher and car voucher. The dated vouchers take precedence over generic narrative day numbering. The narrative “Day 8: Banff – Jasper” describes a day based in Jasper, not another drive from Banff.
 
+## Accommodation alert · researched 3 November 2026
+
+[The official Lobstick Lodge amenities page](https://www.banffjaspercollection.com/hotels/lobstick-lodge/amenities/) now states that the property is temporarily closed for renovations, with a phased reopening from summer 2027. This conflicts with the 13–15 November 2026 voucher. Ask the agency to confirm the actual hotel and its parking. The app preserves the booking details pending clarification; matching a voucher does not establish that a property is operating.
+
 ## Corridors
 
 | Date, November 2026 | Agency corridor | Corrections / limits |

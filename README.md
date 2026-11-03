@@ -69,3 +69,9 @@ Essential breaks and one hour of contingency are reserved. Up to 20 extra minute
 ## Clothing
 
 Clothing opens a per-person packing checklist with suggested quantities and a mid-trip laundry assumption. Progress is browser-local and exported with the itinerary. “What to wear” covers 6–21 November, including non-driving days and return flights. It uses the exact date’s available town forecasts (both endpoints on a transfer), with explicit seasonal fallback when forecasts are missing. Mountain-pass conditions may differ; rain, snow, freezing lows and wind add appropriate clothing notes but never imply safe trail access. Return connections on 20–21 November use flight-layer guidance rather than Vancouver weather.
+
+## Hotel parking
+
+The P button and hotel cards show source-linked parking guidance for all eight stays, reviewed 3 November 2026. Prefer hotel guest parking; Vancouver and Whistler include researched public alternatives, including access/height/overnight restrictions. Sources are published listings and vouchers, not live availability or reservations. Conflicting Belmont prices are not represented as a confirmed rate. Super 8 parking is explicitly based on a booking listing pending hotel confirmation. Each transfer reserves 20 minutes for parking and reaching reception, separately from the weather contingency.
+
+A prominent alert flags a booking conflict: the official Lobstick Lodge page says it is closed for renovations until a phased reopening from summer 2027, while the voucher books 13–15 November 2026. The user must confirm the actual accommodation and parking with the agency. No reservations or route endpoints have been changed.

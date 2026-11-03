@@ -15,7 +15,7 @@ function arrivalPlan(index){
  const rises=points.map(([lat,lng])=>solarEvent(stay.start,lat,lng,true,leg.zone));
  const sets=points.map(([lat,lng])=>solarEvent(stay.start,lat,lng,false,leg.zone));
  const daylightStart=Math.max(...rises)+15*60000,daylightEnd=Math.min(...sets)-45*60000;
- const baseBudget=leg.driveMax+leg.breaks+leg.buffer;
+ const parkingMinutes=20,baseBudget=leg.driveMax+leg.breaks+leg.buffer+parkingMinutes;
  const target=Math.min(daylightEnd,Math.max(localInstant(stay.start,leg.target,leg.zone),daylightStart+baseBudget*60000));
  const checkout=localInstant(stay.start,origin.checkout,origin.zone);
  const latestStart=Math.min(target-baseBudget*60000,checkout);
@@ -24,7 +24,7 @@ function arrivalPlan(index){
  const depart=fits?Math.max(daylightStart,Math.min(preferred,latestStart)):daylightStart;
  const optional=fits?Math.max(0,Math.min(20,Math.floor((target-depart)/60000)-baseBudget)):0;
  const budget=baseBudget+optional,arrival=depart+budget*60000;
- return{departure:localClock(depart,origin.zone),arrival:localClock(arrival,leg.zone),budget,drive:leg.driveMax,breaks:leg.breaks,buffer:leg.buffer,optionalMinutes:optional,originZone:origin.zone,destinationZone:leg.zone,departTimestamp:depart,arrivalTimestamp:arrival,targetTimestamp:target,daylightStart,daylightEnd,daylightStartClock:localClock(daylightStart,origin.zone),daylightEndClock:localClock(daylightEnd,leg.zone),latestDeparture:fits?localClock(latestStart,origin.zone):null,fitsDaylight:fits,tightWindow:fits&&latestStart-daylightStart<30*60000,maxDriveMinutes:Math.max(0,Math.floor((daylightEnd-daylightStart)/60000)-leg.breaks-leg.buffer)};
+ return{departure:localClock(depart,origin.zone),arrival:localClock(arrival,leg.zone),budget,drive:leg.driveMax,breaks:leg.breaks,buffer:leg.buffer,parkingMinutes,optionalMinutes:optional,originZone:origin.zone,destinationZone:leg.zone,departTimestamp:depart,arrivalTimestamp:arrival,targetTimestamp:target,daylightStart,daylightEnd,daylightStartClock:localClock(daylightStart,origin.zone),daylightEndClock:localClock(daylightEnd,leg.zone),latestDeparture:fits?localClock(latestStart,origin.zone):null,fitsDaylight:fits,tightWindow:fits&&latestStart-daylightStart<30*60000,maxDriveMinutes:Math.max(0,Math.floor((daylightEnd-daylightStart)/60000)-leg.breaks-leg.buffer-parkingMinutes)};
 }
 function timeBudget(minutes){return `${Math.floor(minutes/60)}h${minutes%60?String(minutes%60).padStart(2,'0'):''}`;}
 // Standard sunrise/sunset approximation (solar centre at -0.833 degrees).
