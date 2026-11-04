@@ -2,9 +2,11 @@
 
 Compared with the supplied combined-travel contract, eight hotel vouchers, flight voucher and car voucher. The dated vouchers take precedence over generic narrative day numbering. The narrative “Day 8: Banff – Jasper” describes a day based in Jasper, not another drive from Banff.
 
-## Accommodation alert · researched 3 November 2026
+## Accepted replacement · agency update and user acceptance, 4 November 2026
 
-[The official Lobstick Lodge amenities page](https://www.banffjaspercollection.com/hotels/lobstick-lodge/amenities/) now states that the property is temporarily closed for renovations, with a phased reopening from summer 2027. This conflicts with the 13–15 November 2026 voucher. Ask the agency to confirm the actual hotel and its parking. The app preserves the booking details pending clarification; matching a voucher does not establish that a property is operating.
+The agency confirms Lobstick renovations and proposes moving the reservation to **Chateau Jasper**, standard room with 2 queen beds, room only. Its message requests the traveller’s acceptance before proceeding. The traveller has confirmed acceptance. The app marks Chateau Jasper as the accepted replacement, retaining 13–15 November dates from the original booking. Obtain the revised voucher; the app has not sent an acceptance message.
+
+[Official location](https://www.banffjaspercollection.com/hotels/chateau-jasper/location/): 96 Geikie Street, GPS 52°53′09″N / 118°04′49″W. Free heated underground parking is limited; [operator terms](https://www.banffjaspercollection.com/terms-conditions/) require vehicles under 6′1″. Check actual SUV height and ask reception about overflow. Published check-in/out are 16:00/11:00, pending the revised voucher. This local endpoint change does not alter the intercity agency corridor.
 
 ## Corridors
 
@@ -29,7 +31,7 @@ The documents provide narrative routes, not GPS tracks or turn-by-turn instructi
 | Sandman, Penticton | 9–10 | 16:00 | 11:00 | Until midnight; arrange arrival ahead of time; call ahead if after 23:30 |
 | Sutton Place, Revelstoke | 10–11 | 16:00 | 11:00 | Any time after opening per voucher |
 | Caribou Lodge, Banff | 11–13 | 16:00 | 11:00 | Any time after opening per voucher |
-| Lobstick Lodge, Jasper | 13–15 | 16:00 | 11:00 | Until midnight |
+| Chateau Jasper, Jasper (accepted replacement; website hours) | 13–15 | 16:00 | 11:00 | Until midnight |
 | Super 8, 100 Mile House | 15–16 | 15:00 | 11:00 | Any time after opening per voucher |
 | Pinnacle, Whistler | 16–18 | 16:00 | **10:00** | Any time after opening per voucher |
 | Belmont, Vancouver | 18–19 | 15:00 | 11:00 | Until midnight |

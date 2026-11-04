@@ -3,7 +3,7 @@ const hotelFitness=[
  {label:'Fitness centre listed · 08:00–22:00',note:'Sandman publishes these hours. Reconfirm access and any temporary closures at check-in.',source:'https://www.sandmanhotels.com/penticton/amenities/fitness-centre'},
  {label:'Fitness centre listed · 06:00–22:00',note:'Sutton Place lists the fitness centre in building 2. Confirm access with reception.',source:'https://www.suttonplace.com/revelstoke/amenities/fitness-centre'},
  {label:'Fitness room listed · 07:00–23:00',note:'Banff Caribou Lodge publishes these hours in its FAQ. Confirm on arrival.',source:'https://banffcariboulodge.com/faq/'},
- {label:'Accommodation must be confirmed',note:'Lobstick lists a fitness centre but its official renovation closure conflicts with your dates. Do not rely on that gym; ask the agency about your actual hotel.',source:'https://www.banffjaspercollection.com/hotels/lobstick-lodge/amenities/'},
+ {label:'Chateau Jasper · gym access to verify',note:'Tourism Alberta lists a fitness centre, but the hotel’s current amenities page does not confirm gym access. Ask reception; retain the indoor mobility fallback. You have accepted the replacement; obtain the revised voucher.',source:'https://www.travelalberta.com/listings/chateau-jasper-1145'},
  {label:'Gym not confirmed',note:'No fitness room is confirmed in the Super 8 voucher. Plan quiet indoor mobility rather than assuming there is a gym.',source:null},
  {label:'Fitness room listed · hours to confirm',note:'Pinnacle’s official site lists an elliptical and treadmill. Check operating hours and access with reception.',source:'https://whistlerpinnacle.com/stay/'}
 ];hotelFitness[7]=hotelFitness[0];
@@ -29,7 +29,7 @@ function dailyRoutine(day){
  if(travel){out.movementKind='terminal';out.movementStart='3 × 10 minutes between flights';out.wake='Follow flight / transfer needs';out.breakfast='Around your flight schedule';out.lunch='During a suitable connection';out.dinner='Around your flight schedule';out.bed=day===6?'Rest after hotel arrival; do not force a workout':'Prioritise sleep in transit / after arrival';out.warning='Flight days are flexible: walk in terminals only when boarding and security allow. Shorten or skip movement if exhausted or unwell; do not sacrifice sleep.';}
  if(day===21){out.movementKind='recovery';out.movementStart='After restorative sleep';out.wake='After sufficient sleep';out.breakfast='After waking';out.lunch='Local lunchtime once awake';out.dinner='18:30–19:30 · Canary time';out.bed='Ease back into your home routine';out.warning='You arrive in Gran Canaria at 00:30. Prioritise getting home and sleeping; there are no onward flights to walk between today.';}
  out.movementEnd=/^\d{2}:\d{2}$/.test(out.movementStart)?addClock(out.movementStart,30):null;
- if(index===4)out.warning=(out.warning?out.warning+' ':'')+'Jasper accommodation and gym access require agency confirmation.';
+ if(index===4)out.warning=(out.warning?out.warning+' ':'')+'Chateau Jasper replacement accepted; obtain the revised voucher and verify gym access.';
  return out;
 }
 function routineRows(r){

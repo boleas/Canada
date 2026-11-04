@@ -74,16 +74,26 @@ Clothing opens a per-person packing checklist with suggested quantities and a mi
 
 The P button and hotel cards show source-linked parking guidance for all eight stays, reviewed 3 November 2026. Prefer hotel guest parking; Vancouver and Whistler include researched public alternatives, including access/height/overnight restrictions. Sources are published listings and vouchers, not live availability or reservations. Conflicting Belmont prices are not represented as a confirmed rate. Super 8 parking is explicitly based on a booking listing pending hotel confirmation. Each transfer reserves 20 minutes for parking and reaching reception, separately from the weather contingency.
 
-A prominent alert flags a booking conflict: the official Lobstick Lodge page says it is closed for renovations until a phased reopening from summer 2027, while the voucher books 13–15 November 2026. The user must confirm the actual accommodation and parking with the agency. No reservations or route endpoints have been changed.
+The original Lobstick closure conflict has been superseded by the agency’s Chateau Jasper replacement, accepted by the traveller. The app uses the new hotel and its parking details, with a reminder to obtain the revised voucher.
 
 ## Daily rhythm and exercise
 
 Day plan offers suggested local wake, meal and sleep times and a planned 30-minute movement block on every trip date. Hotel exercise is outside transfer driving budgets, with quiet indoor alternatives when a gym is unconfirmed or unavailable. The 15 November workout is before the drive, preserving the unresolved daylight warning. Non-driving days combine time-limited walks with landmarks; travel days are flexible, and 21 November prioritises sleep after the 00:30 return. A daily completion tick is browser-local and exported.
 
-Fitness facilities and published hours are source-linked for Sandman Penticton, Sutton Place Revelstoke, Banff Caribou Lodge and Pinnacle Whistler, reviewed 3 Nov 2026. Belmont and Super 8 gyms are unconfirmed; Lobstick remains subject to the official closure / booking conflict. Outdoor walks require open, suitable paths, and account for travel to the start separately. The suggested 22:00 bedtime and 06:45–07:00 wake time are practical trip planning, not a universal Canadian routine or medical prescription.
+Fitness facilities and published hours are source-linked for Sandman Penticton, Sutton Place Revelstoke, Banff Caribou Lodge and Pinnacle Whistler, reviewed 3 Nov 2026. Belmont and Super 8 gyms are unconfirmed; Chateau Jasper fitness access needs local verification. Outdoor walks require open, suitable paths, and account for travel to the start separately. The suggested 22:00 bedtime and 06:45–07:00 wake time are practical trip planning, not a universal Canadian routine or medical prescription.
 
 ## Vancouver parking update and Arc’teryx
 
 The hotel message supplied 4 November 2026 supersedes older parking listings for both Belmont stays: the hotel does not operate/manage parking. It recommends the independent public pay lot at 1001 Seymour St and the gated facility at 930 Seymour St. Brief luggage unloading is permitted where lawful; the Guest Experience Team supplies gated directions/access. Rates, overnight permission, clearance and gate terms remain to be confirmed. Previous suggested lots have been replaced.
 
 Discover’s Arc’teryx filter and blue shop pins show Robson St (closest verified brand store, not an outlet), McArthurGlen (recommended for airport-side convenience) and North Vancouver (alternative factory outlet). Official listings, addresses, phone numbers and published hours are linked, reviewed 4 November. Outlet stock and savings are not guaranteed. Pins are approximate and navigation uses published addresses. These optional Vancouver-day visits do not modify transfer corridors or airport buffers. Robson can be reached on foot; use the 7th/8th for a longer outlet excursion. Existing saved stop IDs are preserved.
+
+## Jasper replacement update · 4 November 2026
+
+The agency reports moving the reservation to Chateau Jasper but asks for acceptance before proceeding. The traveller subsequently accepted; the app now shows Chateau Jasper as the **accepted replacement, with a revised voucher to obtain**, for the existing 13–15 Nov dates, standard room with 2 queen beds, room only. This is not an agency acceptance or a confirmation of fulfilment. The booking reference from the message is intentionally excluded from tracked source and public hosting.
+
+The local hotel endpoint, phone, parking and exercise guidance are updated provisionally. Official published GPS: 52°53′09″N, 118°04′49″W, address 96 Geikie Street. Website check-in/out are 16:00/11:00 pending revised voucher. Free heated garage parking is limited and first come; operator terms restrict clearance to under 6′1″ (about 1.85m). Ask reception for permitted overflow. Tourism Alberta mentions a gym but the hotel amenities page does not currently confirm one; access remains unverified. The agency corridor and dates remain unchanged, and the long 15 November daylight warning remains.
+
+### Acceptance confirmed by user
+
+The traveller has now accepted Chateau Jasper. The app marks it as the accepted replacement and updates hotel, route endpoint, parking and daily plans. Keep a reminder to obtain the revised voucher; no acceptance message was sent by this app.
