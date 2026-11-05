@@ -97,3 +97,9 @@ The local hotel endpoint, phone, parking and exercise guidance are updated provi
 ### Acceptance confirmed by user
 
 The traveller has now accepted Chateau Jasper. The app marks it as the accepted replacement and updates hotel, route endpoint, parking and daily plans. Keep a reminder to obtain the revised voucher; no acceptance message was sent by this app.
+
+## Mobile UX redesign
+
+The app now uses one task per screen: Map, Journey, Nearby and Trip kit. The map has no hotel/details panel over it. Trip and place hotspots open separate detail screens; Back preserves the map camera. Journey chooses a leg; stop details provide Google Maps, hotel, parking, daily rhythm, clothing, conditions and nearby actions. Nearby uses compact place rows and a separate detail screen with save/navigation. Saved stop IDs and checklist keys are unchanged.
+
+Existing tools are full-screen pages with sticky Back and Map actions. Main navigation supports browser Back, large touch targets, 16px body text and safe-area spacing. The map's approximate corridors and live feed limitations are unchanged. Browser checks cover 360/390/430px widths, marker taps, screen transitions, map camera restoration, full-screen tools, saved places and browser Back. These checks are not physical-device or live tile verification.
